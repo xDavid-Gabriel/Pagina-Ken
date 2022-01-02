@@ -1,0 +1,22 @@
+$theme-colors: (
+  "primary": black,
+  "secondary": #c4c4c4,
+);
+
+//BOTONES
+$btn-border-radius: 10px;
+
+//LA NAVEGACION
+$navbar-light-color: black;
+$navbar-light-toggler-border-color: none;
+$navbar-toggler-focus-width: 0;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/*Estilos extra*/
+
+@media (min-width: 768px) {
+  .position-md-absolute {
+    position: absolute;
+  }
+}

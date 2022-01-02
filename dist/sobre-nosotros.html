@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Suez+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ken</title>
+  </head>
+  <body>
+    <!-- Aqui ira la navegacion -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="../dist/img/Logo.svg" alt="Logo Ken"
+          /></a>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item me-3">
+                <a class="nav-link font-serif" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link font-serif" href="sobre-nosotros.html"
+                  >SOBRE NOSOTROS</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link font-serif" href="nuestros-trabajos.html"
+                  >TRABAJOS</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link font-serif" href="contacto.html"
+                  >CONTACTANOS</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container min-vh-100">
+      <div
+        class="
+          row
+          min-vh-100
+          mt-md-0
+          align-items-end
+          position-relative
+          content-sobre
+          overflow-hidden
+        "
+      >
+        <div class="title-text position-md-absolute sobre-nosotros">
+          <h1 class="title-1 text-black display-1 animacion">
+            Sobre <br />
+            Nosotros
+          </h1>
+        </div>
+        <div
+          class="
+            d-flex
+            align-items-center
+            my-4
+            info-text
+            position-md-absolute
+            animacion2
+          "
+        >
+          <div class="rayita bg-primary"></div>
+          <p class="my-lg-4 mb-0">
+            Lorem Ipsum es simplemente texto de relleno de la industria de la
+            impresión y la composición tipográfica.
+          </p>
+        </div>
+
+        <div
+          class="
+            bg-secondary
+            p-5
+            d-flex
+            align-items-end
+            justify-content-center
+            col-md-5 col-xl-6
+            order-md-2
+            text-garras
+          "
+        >
+          <div class="d-flex align-items-center mb-5 parrafo">
+            <h4 class="text-primary">
+              COMER <br />
+              RESPIRAR. <br />
+              DISEÑO.
+            </h4>
+            <img class="img-garras" src="../dist/img/garras.svg" alt="Garras" />
+          </div>
+        </div>
+
+        <div
+          class="
+            bg-primary
+            contenido-ken
+            d-flex
+            justify-content-center
+            align-items-center
+            col-md-6 col-xl-5
+            order-md-3
+            contenido-ken
+          "
+        >
+          <div class="p-5 parrafo2">
+            <h3 class="text-white text-ken">KEN</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+              autem officiis voluptatem neque unde totam hic fugit alias ipsam,
+              consequuntur voluptatum numquam assumenda omnis aut? Quia dolores
+              voluptate eligendi modi?
+            </p>
+            <a href="leer-ken.html">
+              <button class="btn btn-secondary text-primary font-serif">
+                Leer mas
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="
+            social
+            d-flex
+            flex-column
+            justify-content-end
+            my-5 my-md-0
+            mb-md-4
+            col-md-1
+            botones2
+          "
+        >
+          <img class="fb mb-3" src="../dist/img/facebook.svg" alt="Facebook" />
+          <img class="ig" src="../dist/img/instagram.svg" alt="Instagram" />
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="animaciones.js"></script>
+  </body>
+</html>

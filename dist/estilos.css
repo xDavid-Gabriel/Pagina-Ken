@@ -1,0 +1,261 @@
+/*Navbar Navegacion*/
+.navbar-collapse {
+  flex-grow: 0;
+}
+/*Logo*/
+.logo {
+  width: 85px;
+}
+
+/*Botones*/
+.btn:focus {
+  box-shadow: none;
+}
+
+/*Tipografias*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Suez One", serif;
+}
+
+.font-serif {
+  font-family: "Suez One", serif;
+}
+
+.text-body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  color: #6c757d;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/*Pagina de inicio Hero */
+.title-1::before {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 4px;
+  background: black;
+}
+.ir-ahora {
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+.ahora {
+  width: 90px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.flecha {
+  width: 50px;
+  left: 120px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+/*Social*/
+
+.fb {
+  width: 45px;
+  cursor: pointer;
+}
+.ig {
+  width: 45px;
+  cursor: pointer;
+}
+
+/*Sobre nosotros*/
+.content-sobre {
+  margin-top: 100px;
+}
+.rayita {
+  width: 7px;
+  margin-right: 10px;
+  height: 85px;
+}
+
+.text-ken::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: white;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .sobre-nosotros {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  .info-text {
+    width: 350px;
+    right: 0;
+    top: 80px;
+  }
+  .img-garras {
+    width: 100px;
+    margin-left: 10px;
+  }
+  .text-garras {
+    height: 400px;
+  }
+  .contenido-ken {
+    height: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  .info-text {
+    width: 450px;
+    top: 50px;
+  }
+}
+
+/*Leer Ken*/
+.content-ken {
+  margin-top: 100px;
+}
+@media (min-width: 768px) {
+  .content-ken {
+    margin-top: 0;
+  }
+}
+
+.adorno-ken {
+  width: 100px;
+}
+
+/*Nuestros trabajos*/
+.content-trabajos {
+  margin-top: 100px;
+}
+@media (min-width: 768px) {
+  .content-trabajos {
+    margin-top: 0;
+  }
+}
+.flecha-2 {
+  width: 50px;
+  transform: translate(0, -50%) rotate(-40deg);
+}
+
+/*Entrada a Galeria de trabajos*/
+
+.bola-flecha {
+  width: 50px;
+}
+/*Galeria*/
+.video {
+  height: 200px;
+}
+
+/*Contacto*/
+
+.contacto-fondo {
+  background: url(../dist/img/fondo-contacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.trabajar {
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/*Formulario*/
+form {
+  position: relative;
+}
+input {
+  border: none;
+  background: none;
+  outline: none;
+  padding-top: 20px;
+}
+textarea {
+  border-bottom: 2px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  outline: none;
+  width: 100%;
+  height: 70px;
+  max-height: 100px;
+}
+.lbl-nombre {
+  position: relative;
+  bottom: 50px;
+
+  width: 100%;
+  height: 55px;
+  pointer-events: none;
+  border-bottom: 2px solid black;
+}
+
+@media (min-width: 768px) {
+  form {
+    max-height: 450px;
+  }
+  .lbl-nombre {
+    position: relative;
+
+    width: 100%;
+    height: 55px;
+    pointer-events: none;
+    border-bottom: 2px solid black;
+  }
+}
+
+/*Sumit*/
+.submit {
+  background: none;
+  border: none;
+}
+.img-flecha-contacto {
+  width: 25px;
+}
+.submit:hover > .img-flecha-contacto {
+  transform: translateX(7px);
+  transition: transform 0.5s ease-out;
+}
+/*Animaciones*/
+
+.fb:hover,
+.ig:hover {
+  animation: error 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes error {
+  10%,
+  90% {
+    transform: translateX(-1px);
+  }
+  20%,
+  80% {
+    transform: translateX(2px);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translateX(-4px);
+  }
+  40%,
+  60% {
+    transform: translateX(4px);
+  }
+}
