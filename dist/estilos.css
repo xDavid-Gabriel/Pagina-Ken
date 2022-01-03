@@ -163,7 +163,7 @@ body {
 /*Contacto*/
 
 .contacto-fondo {
-  background: url(../dist/img/fondo-contacto.jpg);
+  background: url(./img/fondo-contacto.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
