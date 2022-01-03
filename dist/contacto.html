@@ -81,7 +81,11 @@
           </h2>
         </div>
 
-        <form class="col-md-6 my-5 my-md-0 botones">
+        <form
+          class="col-md-6 my-5 my-md-0 botones"
+          data-netlify="true"
+          name="contacto"
+        >
           <h1 class="title-1 text-black display-1 animacion">Contacto</h1>
           <div class="row">
             <div class="col-12 col-md-6">
@@ -89,6 +93,7 @@
                 class="d-block"
                 type="text"
                 placeholder="Juan  Josue"
+                name="nombre"
                 required
               />
               <label class="lbl-nombre"
@@ -102,6 +107,7 @@
                 type="text"
                 placeholder="Perez Suarez"
                 required
+                name="apellidos"
               />
               <label class="lbl-nombre"
                 ><span class="font-serif text-primary"> Apellidos </span></label
@@ -114,6 +120,7 @@
                 type="email"
                 placeholder="ejemplo@gmail.com"
                 required
+                name="email"
               />
               <label class="lbl-nombre"
                 ><span class="font-serif text-primary"> E-mail </span></label
@@ -126,6 +133,7 @@
                 type="number"
                 placeholder="956 478 332"
                 required
+                name="telefono"
               />
               <label class="lbl-nombre"
                 ><span class="font-serif text-primary"> Telefono </span></label
@@ -142,6 +150,7 @@
                 cols="30"
                 rows="10"
                 required
+                name="mensaje"
               ></textarea>
             </div>
           </div>
